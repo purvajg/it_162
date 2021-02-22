@@ -3,12 +3,16 @@
 <section>
 <h2>According to StatCounter, mobile currently accounts for 51% of all internet traffic worldwide and
 Almost 90% of this traffic belongs to mobile apps:</h2>
-<img src="images/stats_1.png" class="tablet" alt="" media="all" />
-<img src="images/stats_2.png" class="tablet" alt="" media="all" />
+<div class='embed-container'>
+    <img src="images/stats_1.png" />
+</div>
+<div class='embed-container'>
+    <img src="images/stats_2.png" />
+</div>
 
 <h2 class="pageID">Mobile Apps vs. Web Apps definitions: </h3>
  <p>
- <ul>Mobile App
+ <ul> <u>Mobile App</u> -
     <li>Mobile apps are built for a specific platform, such as iOS for the Apple iPhone or Android for a Samsung device. </li>
     <li>They are downloaded and installed via an app store and have access to system resources, such as GPS and the camera function.</li>
     <li>Mobile apps live and run on the device itself. </li>
@@ -17,7 +21,7 @@ Almost 90% of this traffic belongs to mobile apps:</h2>
 </p>
 
 <p>
-<ul>Web apps :
+<ul> <u>Web apps</u> -
     <li>Web apps, on the other hand, are accessed via the internet browser and will adapt to whichever device you’re viewing them on.</li>
     <li>They are not native to a particular system and don’t need to be downloaded or installed.</li>
     <li>Due to their responsive nature, they do indeed look and function a lot like mobile apps.</li>
@@ -98,16 +102,15 @@ Almost 90% of this traffic belongs to mobile apps:</h2>
 <section>
  <h3><u>Research:</u></h3>
  <ul>
-     <li>responsive websites vs mobile apps <a href="https://www.google.com/search?q=responsive+websites+vs+mobile+apps&rlz=1C5CHFA_enUS872US872&oq=responsive+websites+vs+mobile+apps&aqs=chrome..69i57j0i22i30l2.446j0j7&sourceid=chrome&ie=UTF-8
-">https://www.google.com/search?q=responsive+websites+vs+mobile+apps&rlz=1C5CHFA_enUS872US872&oq=responsive+websites+vs+mobile+apps&aqs=chrome..69i57j0i22i30l2.446j0j7&sourceid=chrome&ie=UTF-8
+     <li><a href="https://www.google.com/search?q=responsive+websites+vs+mobile+apps&rlz=1C5CHFA_enUS872US872&oq=responsive+websites+vs+mobile+apps&aqs=chrome..69i57j0i22i30l2.446j0j7&sourceid=chrome&ie=UTF-8
+">responsive websites vs mobile apps
 </a></li>
-     <li>advantages of mobile applications over websites
+     <li>
 <a href="https://www.google.com/search?q=advantages+of+mobile+applications+over+websites&rlz=1C5CHFA_enUS872US872&oq=advantages+of+mobile+applications+over+websites&aqs=chrome..69i57j0i22i30l3j0i390l2.1501j0j9&sourceid=chrome&ie=UTF-8
-">https://www.google.com/search?q=advantages+of+mobile+applications+over+websites&rlz=1C5CHFA_enUS872US872&oq=advantages+of+mobile+applications+over+websites&aqs=chrome..69i57j0i22i30l3j0i390l2.1501j0j9&sourceid=chrome&ie=UTF-8
+">advantages of mobile applications over websites
 </a></li>
-     <li>choose web apps vs mobile apps
-     <a href="https://www.google.com/search?q=choose+web+apps+vs+mobile+apps&rlz=1C5CHFA_enUS872US872&oq=choose+web+apps+vs+mobile+apps&aqs=chrome..69i57j33i22i29i30l4.8926j1j9&sourceid=chrome&ie=UTF-8">
-     https://www.google.com/search?q=choose+web+apps+vs+mobile+apps&rlz=1C5CHFA_enUS872US872&oq=choose+web+apps+vs+mobile+apps&aqs=chrome..69i57j33i22i29i30l4.8926j1j9&sourceid=chrome&ie=UTF-8</a>       
+     <li>
+     <a href="https://www.google.com/search?q=choose+web+apps+vs+mobile+apps&rlz=1C5CHFA_enUS872US872&oq=choose+web+apps+vs+mobile+apps&aqs=chrome..69i57j33i22i29i30l4.8926j1j9&sourceid=chrome&ie=UTF-8">choose web apps vs mobile apps</a>
 
 </ul>
 </section>
@@ -137,27 +140,20 @@ Almost 90% of this traffic belongs to mobile apps:</h2>
 </li>
 
 <li><a href="https://knowarth.medium.com/9-advantages-of-mobile-apps-over-responsive-ecommerce-websites-6aed1e6db0d8
-    ">https://knowarth.medium.com/9-advantages-of-mobile-apps-over-responsive-ecommerce-websites-6aed1e6db0d8
+    ">Talks about 9 Advantages of Mobile Apps over responsive eCommerce websites
     </a>
-    <ul>
-        <li>Talks about 9 Advantages of Mobile Apps over responsive eCommerce websites</li>
-    </ul>
+
 </li>
 
 <li><a href="https://vwo.com/blog/10-reasons-mobile-apps-are-better/
-    ">https://vwo.com/blog/10-reasons-mobile-apps-are-better/
+    ">10 Reasons Why mobile apps are Better
     </a>
-    <ul>
-        <li>10 Reasons Why mobile apps are Better</li>
-    </ul>
 </li>
 
 <li><a href="https://sagaratechnology.medium.com/mobile-apps-vs-web-apps-which-is-the-better-option-868106c88730#:~:text=Web%20apps%20need%20an%20active,Web%20apps%20will%20update%20themselves.
-    ">https://sagaratechnology.medium.com/mobile-apps-vs-web-apps-which-is-the-better-option-868106c88730#:~:text=Web%20apps%20need%20an%20active,Web%20apps%20will%20update%20themselves.
+    ">Gives a good explanation of the difference between web apps vs mobile apps
     </a>
-    <ul>
-        <li>Gives a good explanation of the difference between web apps vs mobile apps</li>
-    </ul>
+
 </li>
 
 <ol>
