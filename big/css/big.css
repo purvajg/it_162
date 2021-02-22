@@ -15,6 +15,11 @@ div.wrapper,footer {
     overflow:auto;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 section {
     float:left;
     width:64%;
@@ -30,10 +35,14 @@ aside {
 header h1 {
     text-align:right;
 }
+li{
+    margin: 10px 0;
+}
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     padding:.5em;
+    color: crimson;
 }
 
 p {

@@ -2,15 +2,30 @@
 
 <section>
 <h2>Flexbox cheatsheet:</h2>
-<img src="images/flex_1.png" class="tablet" alt="" media="all" />
-<img src="images/flex_2.png" class="tablet" alt="" media="all" />
-<img src="images/flex_3.png" class="tablet" alt="" media="all" />
-<img src="images/flex_4.png" class="tablet" alt="" media="all" />
-<img src="images/flex_5.png" class="tablet" alt="" media="all" />
+<div class='embed-container'>
+    <img src="images/flex_1.png" class="tablet" alt="" media="all" />
+</div>
+<hr />
+<div class='embed-container'>
+    <img src="images/flex_2.png" class="tablet" alt="" media="all" />
+</div>
+<hr />
+<div class='embed-container'>
+    <img src="images/flex_3.png" class="tablet" alt="" media="all" />
+</div>
+<hr />
+<div class='embed-container'>
+    <img src="images/flex_4.png" class="tablet" alt="" media="all" />
+</div>
+<hr />
+<div class='embed-container'>
+    <img src="images/flex_5.png" class="tablet" alt="" media="all" />
+</div>
+
 
 <h2 class="pageID">Flexbox : </h3>
- <p>
- <ul>Properties of Parent :
+
+ <ul><u>Properties of Parent</u> :
     <li>display</li>
     <li>flex-direction</li>
     <li>flex-wrap</li>
@@ -19,10 +34,10 @@
     <li>align-itemsp</li>
     <li>align-content</li>
     </ul>
-</p>
+
 
 <p>
-<ul>Properties of Children :
+<ul><u>Properties of Children</u> :
     <li>order</li>
     <li>flex-grow</li>
     <li>flex-shrink</li>
@@ -33,19 +48,16 @@
 </p>
 
 <p>
-<ul>The two axis :
+<ul><u>The two axis</u> :
     <li>Main axis</li>
     <li>Cross axis</li>
 </ul>
 </p> 
 
+<div class='embed-container'>
+    <img src="images/browser_support.png" alt=""/>
+</div>
 
-<h2>Browser support chart for flexbox:</h2>
-<img src="images/browser_support.png" class="tablet" alt="" media="all" />
-
-<p></p>
-<p></p>
-<p></p>
 <h3><u>You should consider using Flexbox when:</u></h3>
 <p>
     <ul>
@@ -110,20 +122,11 @@
 <section>
  <h3>Research:</h3>
  <ul>
-     <li>how do I use css flexbox <a href="https://www.google.com/search?q=how+do+I+use+css+flexbox&rlz=1C5CHFA_enUS872US872&oq=how+do+I+use+css+flexbox&aqs=chrome..69i57j0i22i30l2.21258j0j7&sourceid=chrome&ie=UTF-8
-">https://www.google.com/search?q=how+do+I+use+css+flexbox&rlz=1C5CHFA_enUS872US872&oq=how+do+I+use+css+flexbox&aqs=chrome..69i57j0i22i30l2.21258j0j7&sourceid=chrome&ie=UTF-8
+     <li><a href="https://www.google.com/search?q=how+do+I+use+css+flexbox&rlz=1C5CHFA_enUS872US872&oq=how+do+I+use+css+flexbox&aqs=chrome..69i57j0i22i30l2.21258j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Using Css flexbox</a>
 </a></li>
-     <li>browser flexbox shim
-<a href="https://www.google.com/search?q=browser+flexbox+shim&rlz=1C5CHFA_enUS872US872&oq=browser+flexbox+shim&aqs=chrome..69i57.1409j0j4&sourceid=chrome&ie=UTF-8
-">https://www.google.com/search?q=browser+flexbox+shim&rlz=1C5CHFA_enUS872US872&oq=browser+flexbox+shim&aqs=chrome..69i57.1409j0j4&sourceid=chrome&ie=UTF-8
-</a></li>
-     <li>what is jquery sliders
-     <a href="https://www.google.com/search?safe=active&rlz=1C5CHFA_enUS872US872&sxsrf=ALeKk01YaZ0DsKe9GBMxC3LmCqkRTzSIyw%3A1612917117747&ei=fSkjYKmdLc-X-gS5_KGgAQ&q=what+is+jquery+sliders&oq=what+is+jquery+sliders&gs_lcp=CgZwc3ktYWIQAzoFCAAQzQJQuTBYhjdgxkVoAHACeACAAWeIAbwEkgEDNy4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjpz-u-iN7uAhXPi54KHTl-CBQQ4dUDCA0&uact=5">https://www.google.com/search?safe=active&rlz=1C5CHFA_enUS872US872&sxsrf=ALeKk01YaZ0DsKe9GBMxC3LmCqkRTzSIyw%3A1612917117747&ei=fSkjYKmdLc-X-gS5_KGgAQ&q=what+is+jquery+sliders&oq=what+is+jquery+sliders&gs_lcp=CgZwc3ktYWIQAzoFCAAQzQJQuTBYhjdgxkVoAHACeACAAWeIAbwEkgEDNy4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjpz-u-iN7uAhXPi54KHTl-CBQQ4dUDCA0&uact=5</a>       
-</li>
-     <li>flexbox css tricks
-    <a href="https://www.google.com/search?q=flexbox+css+tricks&rlz=1C5CHFA_enUS872US872&oq=flexbox+&aqs=chrome.3.69i57j0i433l2j0l2j69i60l3.4646j0j7&sourceid=chrome&ie=UTF-8
-">
-</a>
+     <li><a href="https://www.google.com/search?q=browser+flexbox+shim&rlz=1C5CHFA_enUS872US872&oq=browser+flexbox+shim&aqs=chrome..69i57.1409j0j4&sourceid=chrome&ie=UTF-8" target="_blank">Browser Flexbox Shim</a></li>
+     <li><a href="https://www.google.com/search?safe=active&rlz=1C5CHFA_enUS872US872&sxsrf=ALeKk01YaZ0DsKe9GBMxC3LmCqkRTzSIyw%3A1612917117747&ei=fSkjYKmdLc-X-gS5_KGgAQ&q=what+is+jquery+sliders&oq=what+is+jquery+sliders&gs_lcp=CgZwc3ktYWIQAzoFCAAQzQJQuTBYhjdgxkVoAHACeACAAWeIAbwEkgEDNy4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjpz-u-iN7uAhXPi54KHTl-CBQQ4dUDCA0&uact=5" target="_blank">JQuery Slider</a></li>
+     <li><a href="https://www.google.com/search?q=flexbox+css+tricks&rlz=1C5CHFA_enUS872US872&oq=flexbox+&aqs=chrome.3.69i57j0i433l2j0l2j69i60l3.4646j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Flexbox CSS tricks</a>
 </li>
 
 </ul>
