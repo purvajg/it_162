@@ -1,7 +1,7 @@
 <?php include 'includes/header.php';?>  
 
 <section>
- <h2 class="pageID">Galleries : </h3>
+ <h2 class="pageID">Galleries : </h2>
  <img src="images/galleries_grid.png" class="tablet" alt="" />
 
  <p>This gallery looks good to me for the project, it has a grid-based layout :</p>
@@ -9,7 +9,7 @@
  <p>With an image gallery, images and slideshows can be combined together with easy navigation and cool transition effects. 
    
  <p>
- <ul>Some CSS galleries, are more used than others mainly due to :
+ <ul >Some CSS galleries, are more used than others mainly due to :
     <li>Speed</li>
     <li>Responsiveness</li>
     <li>overall aesthetics</li>
