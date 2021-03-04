@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/portal.css" />
     <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/aia.css" />
 </head>
 
 <body>
-<!-- START WRAPPER -->
+
 <main class="wrapper">
 <header>
   <h1><a href="../index.php"><i class="logo fa <?=$logo?>"<?=$logo_color?>></i>Purva Dalvi</a></h1>
@@ -24,4 +25,3 @@
     </ul>
   </nav>
 </header>
-<!-- HEADER ENDS HERE -->
