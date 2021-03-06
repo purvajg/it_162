@@ -14,6 +14,10 @@
       <div class="col col-2" data-label="Customer Name">R.Danny</div>
     </li>
     <li class="table-row">
+      <div class="col col-1" data-label="Job Id">Type of website</div>
+      <div class="col col-2" data-label="Customer Name">Landing page for a mobile app</div>
+    </li>
+    <li class="table-row">
       <div class="col col-1" data-label="Job Id">Business Name</div>
       <div class="col col-2" data-label="Customer Name">TheGupShopApp.com</div>
     </li>
@@ -43,10 +47,10 @@
       <div class="col col-4">Approach</div>
     </li>
     <li class="table-row">
-      <div class="col col-1" data-label="Job Id">Service providers
-      <small>TheGupShopApp.com 
+      <div class="col col-1" data-label="Job Id">Service providers:
+      <small>GupShop
           provides services provided by local professionals to customers 
-          by matching them. Many types of services in categories such as 
+          by matching their needs and location. Many types of services in categories such as 
           home, wellness, events, and lessons.
       </small>
       </div>
@@ -57,18 +61,22 @@
       
            </div>
       <div class="col col-3"> 
-              As this site is the landing page for the app, the website would show
+        <ol>
+            <li style="padding:inherit">As this site is the landing page for the app, the website would show
           a screenshot of the page which showcases the screen where services
-          are shown
-            A textbox or a container showing a description of services
+          are shown</li>
+            <li style="padding:inherit">A textbox or a container showing a description of services
                 offered and the reviews of some of the consumers would be shown
-            
+                </li>
+            <li style="padding:inherit">Testimonies of the consumers
+            </li>
+        </ol>
     
       </div>
     </li>
 
     <li class="table-row">
-      <div class="col col-1" data-label="Job Id">Service consumers
+      <div class="col col-1" data-label="Job Id">Service consumers:
       <small>Consumers would search for service providers based on the location and categories
       </small>
       </div>
@@ -79,15 +87,20 @@
       
            </div>
       <div class="col col-3"> 
-         
-              Giving screenshot of the page that shows a list of service providers which has their name, total number of reviews and rating
-        
+      <ol>
+        <li style="padding:inherit">Giving screenshot of the page that shows a list of service 
+        providers which has their name, total number of reviews 
+        and rating</li>
+        <li style="padding:inherit">Features provided by the app would be shown by 
+        giving the screenshots of the respective services
+        </li>
+      </ol>
       </div>
     </li>
 
    
     <li class="table-row">
-      <div class="col col-1" data-label="Job Id">Messenger feature users
+      <div class="col col-1" data-label="Job Id">Messenger feature users:
       <small>The users of the app would be using the feature of chat to chat with the service providers or with their friends
       </small>
       </div>
@@ -98,12 +111,16 @@
       
            </div>
       <div class="col col-3"> 
-          
-             Giving screenshot of the page that shows the messenger screens like chat list or a chat with someone
-        
+          <ol>
+            <li style="padding:inherit">Giving screenshot of the page that shows the messenger 
+            screens like chat list or a chat with someone
+            </li>
+          </ol>
       </div>
     </li>
   </ul>
 </div>
- 
-<?php include 'includes/footer.php';?>
+
+<?php 
+$path = 'https://validator.w3.org/nu/?doc=http%3A%2F%2Fpurdal1.dreamhosters.com%2Faia.php';
+include ('includes/footer.php');?>

@@ -33,4 +33,7 @@
 	?>
      </main>
 </body> 
-<?php include 'includes/footer.php';?>
+<?php 
+
+$path = 'https://validator.w3.org/nu/?doc=http%3A%2F%2Fpurdal1.dreamhosters.com%2Fcontactme.php';
+include ('includes/footer.php');?>
