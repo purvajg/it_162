@@ -33,7 +33,7 @@ switch(THIS_PAGE){
     break;
 
     case 'aia.php':
-    $title = "Sara's Final Project AIA (Client work)";
+    $title = "Purva's Final Project AIA (Client work)";
     $logo = "fa-universal-access";
     $logo_color = ' style="color:#00f"';
     break;
