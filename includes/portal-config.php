@@ -61,6 +61,7 @@ switch(THIS_PAGE){
     $nav1['flowchart.php'] = "Flowchart";
     $nav1['fp/index.php'] = "Final Project";
     $nav1['contactme.php'] = "Contact Purva";
+    $nav1['template.php'] = "Template";
     
 
 /*
