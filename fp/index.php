@@ -65,18 +65,4 @@
 
 
 
-<!-- <section class="contactUs" id="contactUs"> -->
-   
-
-        <!-- // include 'includes/contact_include.php'; #site keys & code here
-    
-        // $toAddress = "purvajg@gmail.com";  //place your/your client's email address here
-        // $toName = "Purva Dalvi"; //place your client's name here
-        // $website = "http://purdal1.dreamhosters.com/";  //place NAME of your client's website
-
-        // echo loadContact('simple.php');#demonstrates a simple contact form -->
-
-
-<!-- </section> -->
-
-<!-- <?php include 'includes/footer.php';?> -->
+<?php include 'includes/footer.php';?>
