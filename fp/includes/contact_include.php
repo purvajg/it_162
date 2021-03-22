@@ -85,8 +85,6 @@ if(
 
 function loadContact($form,$feedback='')
 {
-    echo "LOaded contact";
-    error_log("Loaded contact");
     global $toName,$toAddress,$website,$siteKey,$secretKey,$server;
     
     if($toAddress=='' || $toAddress == 'name@example.com')
@@ -105,8 +103,6 @@ function loadContact($form,$feedback='')
     //if (isset($_POST['g-recaptcha-response'])):
     // If the form submission includes the "g-captcha-response" field
     // Create an instance of the service using your secret
-    echo "Before";
-    echo "BEE";
    //$recaptcha = new \ReCaptcha\ReCaptcha($secretKey);
     //echo "Recap $recaptcha";
     // Make the call to verify the response and also pass the user's IP address
@@ -115,8 +111,6 @@ function loadContact($form,$feedback='')
     //if ($resp->isSuccess()):
         // If the response is a success, process data!
         $aSkip = explode(",",$skipFields); #split form elements to skip into array
-        echo "Skip ".print_r($aSkip);
-        error_log(print_r($aSkip));
         $postData = show_POST($aSkip);#loops through and creates select POST data for display/email
         $fromAddress = "";//default
 

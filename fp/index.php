@@ -27,7 +27,7 @@
 </div>
 
 <div class="image">
-    <img src="images/main-img.png" alt="">
+    <img src="images/main-img-alt.jpeg" alt="">
 </div>
 
 </section>
