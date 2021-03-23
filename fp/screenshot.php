@@ -5,19 +5,19 @@
 <div class="screen-slider owl-carousel">
 
     <div class="item">
-        <img src="images/img1-alt.png" alt="">
+        <img src="images/main-img-alt.jpeg" alt="">
     </div>
     <div class="item">
-        <img src="images/img1-alt.png" alt="">
+        <img src="images/main-img-alt.jpeg" alt="">
     </div>
     <div class="item">
-        <img src="images/img1-alt.png" alt="">
+        <img src="images/main-img-alt.jpeg" alt="">
     </div>
     <div class="item">
-        <img src="images/img1-alt.png" alt="">
+        <img src="images/main-img-alt.jpeg" alt="">
     </div>
     <div class="item">
-        <img src="images/img1-alt.png" alt="">
+        <img src="images/main-img-alt.jpeg" alt="">
     </div>
 
 </div>

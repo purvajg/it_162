@@ -6,7 +6,7 @@
 
         <div class="box">
             <h3>why choose us?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, facere iusto excepturi at modi illo tenetur atque fugiat numquam rerum.</p>
+            <p>Locally is a platform to showcase your business and get an instant exposure to millions of customers for free, or get additional services at minimum fee.</p>
         </div>
 
         <div class="box">
@@ -28,8 +28,12 @@
     </div>
 
     <h1 class="credit">created by <a href="#">Purva Dalvi</a>| All rights reserved. </h1>
-    <h1 class="credit"><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fpurdal1.dreamhosters.com%2Ftemplate.php">Valid HTML</a></h1>
-    <h1 class="credit"><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fpurdal1.dreamhosters.com%2Ftemplate.php&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Valid CSS</a></h1>
+    <!-- copyright symbol and php date -->
+    <h1 class="credit"><small>&copy; 2018 - <?=date('Y')?></small></h1>
+    <!-- HTML5 validator -->
+    <h1 class="credit"><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fpurdal1.dreamhosters.com%2Ffp%2Findex.php">Valid HTML</a></h1>
+    <!-- CSS validator -->
+    <h1 class="credit"><a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fpurdal1.dreamhosters.com%2Ffp%2Findex.php&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Valid CSS</a></h1>
 
 </section>
 

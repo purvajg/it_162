@@ -52,7 +52,7 @@ $server = 'hostgator.com';
 //end config area ----------------------------------------
 
 spl_autoload_register('MyAutoLoader::NamespaceLoader');#will check subfolders as namespaces
-// include 'ReCaptcha/ReCaptcha.php'; #required reCAPTCHA class code 
+include 'ReCaptcha/ReCaptcha.php'; #required reCAPTCHA class code 
 if(
     !isset($siteKey) || 
     !isset($secretKey) || 
@@ -100,22 +100,24 @@ function loadContact($form,$feedback='')
         $feedback = 'feedback.php';
     }
     
-    //if (isset($_POST['g-recaptcha-response'])):
+    if (isset($_POST['g-recaptcha-response'])):
     // If the form submission includes the "g-captcha-response" field
     // Create an instance of the service using your secret
-   //$recaptcha = new \ReCaptcha\ReCaptcha($secretKey);
+    $recaptcha = new \ReCaptcha\ReCaptcha($secretKey);
     //echo "Recap $recaptcha";
     // Make the call to verify the response and also pass the user's IP address
-    //$resp = $recaptcha->setExpectedHostname($_SERVER['SERVER_NAME'])
-                      //->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
-    //if ($resp->isSuccess()):
+    $resp = $recaptcha->setExpectedHostname($_SERVER['SERVER_NAME'])
+                      ->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
+    if ($resp->isSuccess()):
         // If the response is a success, process data!
+        error_log("Response is successfull");
         $aSkip = explode(",",$skipFields); #split form elements to skip into array
         $postData = show_POST($aSkip);#loops through and creates select POST data for display/email
         $fromAddress = "";//default
 
         if(is_email($_POST['Email']))
-        {#Only use Email for return address if valid
+        {
+            #Only use Email for return address if valid
             $fromAddress = $_POST['Email'];
             # extra email injector paranoia courtesy of DH: http://wiki.dreamhost.com/PHP_mail()#Mail_Header_Injection
             $fromAddress = preg_replace("([\r\n])", "", $fromAddress);
@@ -132,21 +134,22 @@ function loadContact($form,$feedback='')
         if($server==''){
             $server=$_SERVER["SERVER_NAME"];
         }
-         email_handler($toAddress,$toName,$Subject,$txt,$fromAddress,$Name,$website,$server);
+        email_handler($toAddress,$toName,$Subject,$txt,$fromAddress,$Name,$website,$server);
 
         //show feedback
         include_once $form;
-    // else:
+        include_once 'ReCaptcha/js_includes.php'; #hides JS
+     else:
     //     // If it's not successful, then one or more error codes will be returned.
     //     //show form
-    //     include_once $form;
-    //     // include_once 'ReCaptcha/js_includes.php'; #hides JS
-    // endif;
-// else:
+        include_once $form;
+        include_once 'ReCaptcha/js_includes.php'; #hides JS
+    endif;
+else:
 //     // Add the g-recaptcha tag to the form you want to include the reCAPTCHA element
-//     include_once $form;
-//     // include_once 'ReCaptcha/js_includes.php'; #hides JS
-// endif;
+    include_once $form;
+    include_once 'ReCaptcha/js_includes.php'; #hides JS
+endif;
 
 }//end loadContact()
 

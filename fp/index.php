@@ -18,12 +18,8 @@
 <section class="home" id="home">
 
 <div class="content">
-    <h1>the app</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consectetur suscipit aut ut eos odio nobis minima officiis mollitia tempore.</p>
-    <div class="buttons">
-        <button class="btn" onclick="#">download</button>
-        <button class="btn" onclick="#">learn more</button>
-    </div>
+    <h1>locally</h1>
+    <p>Get connected to local businesses and local service providers instantly</p>
 </div>
 
 <div class="image">

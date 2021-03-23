@@ -5,39 +5,34 @@
 <div class="box-container">
 
     <div class="box">
-        <i class="fas fa-sync-alt"></i>
+        <!-- font awesome icons -->
+        <i class="fas fa-pizza-slice"></i>
         <h3>free updates</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga alias ea quis repudiandae modi architecto reiciendis fugit libero sunt.</p>
+        <p>updates according to requirements or requests</p>
     </div>
 
     <div class="box">
-        <i class="fas fa-headset"></i>
+        <i class="fas fa-hands-helping"></i>
         <h3>app support</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga alias ea quis repudiandae modi architecto reiciendis fugit libero sunt.</p>
+        <p>24/7 support for all app related queries on our toll free number</p>
     </div>
 
     <div class="box">
-        <i class="fas fa-cogs"></i>
-        <h3>easy settings</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga alias ea quis repudiandae modi architecto reiciendis fugit libero sunt.</p>
+        <i class="far fa-address-card"></i>
+        <h3>instant exposure</h3>
+        <p>easy onboarding and instant exposure to millions of customers</p>
     </div>
 
     <div class="box">
         <i class="fas fa-shield-alt"></i>
         <h3>privacy protect</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga alias ea quis repudiandae modi architecto reiciendis fugit libero sunt.</p>
+        <p>all the data is protected and chats are encrypted</p>
     </div>
 
     <div class="box">
         <i class="far fa-bell"></i>
-        <h3>notifications</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga alias ea quis repudiandae modi architecto reiciendis fugit libero sunt.</p>
-    </div>
-
-    <div class="box">
-        <i class="far fa-credit-card"></i>
-        <h3>in app purchase</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga alias ea quis repudiandae modi architecto reiciendis fugit libero sunt.</p>
+        <h3>instant notifications</h3>
+        <p>stay updated when customers need your attention or a new enquiry is published</p>
     </div>
 
 </div>

@@ -19,7 +19,7 @@ $logo_color = ''; //make logo_color an empty string by default
 switch(THIS_PAGE){
 
     case 'index.php':
-        $title = "The App";
+        $title = "Locally";
         $logo = 'fa-home';
         $PageID = 'Welcome';
     break;
